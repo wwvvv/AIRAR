@@ -1,0 +1,5 @@
+patool==4.0.2
+filetype==1.2.0
+Pillow==12.0.0
+tkinterdnd2==0.4.3
+pyinstaller==6.17.0

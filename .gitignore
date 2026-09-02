@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build output
+build/
+build-*/
+dist/
+dist-*/
+release-build/
+release-work/
+release-spec/
+packaging/
+packaging-*/
+*.spec
+
+# Local verification artifacts
+tests/*.png
+tests/*.txt
+tests/settings-ui-smoke*.ps1
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
