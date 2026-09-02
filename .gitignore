@@ -12,6 +12,7 @@ dist-*/
 release-build/
 release-work/
 release-spec/
+release-*/
 packaging/
 packaging-*/
 *.spec
@@ -20,6 +21,11 @@ packaging-*/
 tests/*.png
 tests/*.txt
 tests/settings-ui-smoke*.ps1
+.publish-*.ps1
+.reconstruct-*.py
+.brute-*.py
+AIRAR-v*-windows-x64.exe
+AIRAR-v*-windows-x64.exe.sha256
 
 # Editor / OS
 .vscode/
