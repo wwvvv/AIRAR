@@ -1,4 +1,4 @@
-"""AIRAR v1.0.1 - 面向 Windows 的智能递归解压与游戏文件整理工具。"""
+"""AIRAR v2.3.3 - 面向 Windows 的智能递归解压与游戏文件整理工具。"""
 
 from __future__ import annotations
 
@@ -84,7 +84,12 @@ GAME_RESOURCE_SUFFIXES = {
 }
 GAME_RESOURCE_NAMES = {"persistent"}
 PART_RAR_RE = re.compile(r"^(?P<base>.+)\.part(?P<num>\d+)\.rar$", re.IGNORECASE)
-APP_VERSION = "1.0.1"
+APP_VERSION = "2.3.3"
+DEFAULT_PASSWORDS = ["小猫喝奶啤", "猫里奥小新", "acgyxj.xyz"]
+DEFAULT_AD_RULES = [
+    "*收藏*", "*翻译工具*", "*免责声明*", "*点我*",
+    "*TG群*", "*推广*", "网址*", "*.url",
+]
 
 
 class SmartUnpackerGUI:
@@ -122,10 +127,15 @@ class SmartUnpackerGUI:
         self.center_window()
 
     def load_settings(self) -> dict:
-        defaults = {"passwords": [], "ad_rules": ["广告*", "*推广*", "网址*", "*.url"]}
+        defaults = {"passwords": list(DEFAULT_PASSWORDS), "ad_rules": list(DEFAULT_AD_RULES)}
         try:
             data = json.loads(self.settings_path.read_text(encoding="utf-8"))
-            return {**defaults, **data}
+            for key in ("passwords", "ad_rules"):
+                saved = data.get(key, []) if isinstance(data, dict) else []
+                if not isinstance(saved, list):
+                    saved = []
+                defaults[key] = list(dict.fromkeys(defaults[key] + [str(item) for item in saved if str(item)]))
+            return defaults
         except Exception:
             return defaults
 

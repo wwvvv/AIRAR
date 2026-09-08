@@ -1,5 +1,18 @@
 # 更新日志 / Changelog
 
+## 2.3.3 - 2026-09-08
+
+### 中文
+
+- 内置默认密码：`小猫喝奶啤`、`猫里奥小新`、`acgyxj.xyz`。
+- 内置广告规则：`*收藏*`、`*翻译工具*`、`*免责声明*`、`*点我*`、`*TG群*`、`*推广*`、`网址*`、`*.url`。
+- 升级安装会补齐新的内置规则，同时保留用户已有自定义规则。
+
+### English
+
+- Added three built-in archive password candidates.
+- Added eight built-in wildcard cleanup rules for common ad and disclaimer files.
+- Existing user-defined passwords and cleanup rules are preserved and merged during upgrades.
 ## 1.0.1 - 2026-09-02
 
 ### 中文

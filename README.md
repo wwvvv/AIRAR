@@ -25,7 +25,7 @@ AIRAR 是一款面向 Windows 的智能递归解压与游戏文件整理工具�
 
 ## 下载与使用
 
-1. 前往 [Releases](https://github.com/wwvvv/AIRAR/releases) 下载 `AIRAR-v1.0.1-windows-x64.exe`。
+1. 前往 [Releases](https://github.com/wwvvv/AIRAR/releases) 下载 `AIRAR-v2.3.3-windows-x64.exe`。
 2. 核对发布页面提供的 SHA-256。
 3. 将压缩文件或文件夹拖入 AIRAR，也可以使用文件选择按钮。
 4. 可填写本次优先密码；留空时自动尝试设置中的默认密码。
@@ -73,13 +73,14 @@ tests/               回归测试
 
 ## 当前版本
 
-**1.0.1**
+**2.3.3**
 
-- [下载页面](https://github.com/wwvvv/AIRAR/releases/tag/v1.0.1)
+- [下载页面](https://github.com/wwvvv/AIRAR/releases/tag/v2.3.3)
 - [检查更新](https://www.acgxx.com)
 
 ## 文件校验
 
-`AIRAR-v1.0.1-windows-x64.exe`
+`AIRAR-v2.3.3-windows-x64.exe`
 
-`SHA-256: 340C5CB4E4D03D7A792DEDE973A7B132F8F73BBE2C8958BA89E2675324179E82`
+`SHA-256: 11E2EE6F5F3E50AEBE1A4E809DF47F86756EDB8A8FCB8FD5CB132E2A08F8F092`
+

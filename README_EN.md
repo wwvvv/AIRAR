@@ -25,7 +25,7 @@ AIRAR is a Windows desktop utility for recursive archive extraction and automati
 
 ## Download and use
 
-1. Download `AIRAR-v1.0.1-windows-x64.exe` from [Releases](https://github.com/wwvvv/AIRAR/releases).
+1. Download `AIRAR-v2.3.3-windows-x64.exe` from [Releases](https://github.com/wwvvv/AIRAR/releases).
 2. Verify the SHA-256 value published on the release page.
 3. Drop an archive or folder onto AIRAR, or use the file/folder picker.
 4. Enter a one-time priority password, or leave it blank to try saved defaults.
@@ -73,13 +73,14 @@ tests/               Regression tests
 
 ## Current version
 
-**1.0.1**
+**2.3.3**
 
-- [Release page](https://github.com/wwvvv/AIRAR/releases/tag/v1.0.1)
+- [Release page](https://github.com/wwvvv/AIRAR/releases/tag/v2.3.3)
 - [Update website](https://www.acgxx.com)
 
 ## File integrity
 
-`AIRAR-v1.0.1-windows-x64.exe`
+`AIRAR-v2.3.3-windows-x64.exe`
 
-`SHA-256: 340C5CB4E4D03D7A792DEDE973A7B132F8F73BBE2C8958BA89E2675324179E82`
+`SHA-256: 11E2EE6F5F3E50AEBE1A4E809DF47F86756EDB8A8FCB8FD5CB132E2A08F8F092`
+
