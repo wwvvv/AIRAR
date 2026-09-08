@@ -32,4 +32,3 @@ AIRAR 2.3.3 merges the new built-in password candidates and cleanup rules with e
 ## SHA-256
 
 `11E2EE6F5F3E50AEBE1A4E809DF47F86756EDB8A8FCB8FD5CB132E2A08F8F092`
-
